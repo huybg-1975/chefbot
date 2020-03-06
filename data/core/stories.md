@@ -30,3 +30,12 @@
 * say_no
  - utter_say_bye
 
+## user greet + ask mission + name
+* greet
+ - utter_say_hi
+* ask_mission
+ - utter_say_answer_mission
+* ask_name
+ - utter_say_name
+* say_bye
+ - utter_say_bye

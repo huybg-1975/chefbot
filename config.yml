@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: vi
 pipeline: supervised_embeddings
 
 # Configuration for Rasa Core.
@@ -9,5 +9,5 @@ policies:
 - name: MemoizationPolicy
 - name: KerasPolicy
 - name: MappingPolicy
-- name: FormPolicy
-- name: FallbackPolicy
+# - name: FormPolicy
+# - name: FallbackPolicy
